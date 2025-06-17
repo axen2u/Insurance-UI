@@ -1,0 +1,12 @@
+# Loan UI application dependencies
+
+# Core dependencies
+chainlit==2.5.5
+requests==2.32.3
+
+# These packages are direct dependencies of Chainlit
+# and necessary for the application to function properly
+python-dotenv==1.1.0
+uvicorn==0.34.3
+python-multipart==0.0.18
+Pillow

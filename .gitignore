@@ -1,0 +1,104 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Chainlit specific
+.chainlit/
+.chainlit.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Local development settings
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.vs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Temporary files
+tmp/
+temp/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+*.temp
+
+# Node.js dependencies
+node_modules/
+
+# Python test output
+*.pytest_cache/
+
+# VS Code workspace storage
+.vscode-test/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# More temp files
+*.orig
+*.old
+*.backup
+
+# Ignore .files and similar hidden files/folders
+.files
+.files/
+.files*
